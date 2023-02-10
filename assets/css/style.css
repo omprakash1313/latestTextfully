@@ -5642,6 +5642,9 @@ input[type="button"].btn-block {
     font-size: 1.25rem;
     line-height: 1.5;
 }
+.para{
+    text-align: justify;
+}
 
 .pagination-lg .page-item:first-child .page-link {
     border-top-left-radius: 0.3rem;
@@ -11442,7 +11445,7 @@ p {
 
 .service-card .body img.icon {
     margin-top: 40px;
-    width: 55px;
+    width: 80px;
     margin-bottom: 25px;
     -webkit-transition: all, 0.3s;
     transition: all, 0.3s;
@@ -12387,7 +12390,7 @@ pre .code {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(../imgs/header.jpg);
+    background-image: url(../imgs/header1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -12512,6 +12515,7 @@ pre .code {
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
+    text-align: justify;
 }
 
 @media (max-width: 767.98px) {
